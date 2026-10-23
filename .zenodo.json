@@ -1,0 +1,20 @@
+{
+  "title": "BotLens: artifact for \"Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord\" (NDSS 2027)",
+  "upload_type": "software",
+  "version": "1.0.1",
+  "description": "<p>Artifact for Kofi Ampomah and Tu Le, \"Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord\", Network and Distributed System Security (NDSS) Symposium 2027, <a href=\"https://dx.doi.org/10.14722/ndss.2027.230535\">doi:10.14722/ndss.2027.230535</a>. NDSS'27 Artifact Evaluation badges: Available, Functional, Reproduced.</p><p>Contains the analysis pipeline, the 31-theme security and privacy taxonomy, the derived datasets behind every reported result (botlens-ndss-data.zip), and the BotLens MCP server. Start with ARTIFACT-EVALUATION.md.</p><p><strong>Licenses:</strong> the code is released under the MIT License (LICENSE). The data in botlens-ndss-data.zip is released under CC BY-NC-SA 4.0 (data/LICENSE). The CC BY-NC-SA 4.0 license applies strictly to the annotations, labels, and dataset compilation created by the authors. The underlying data remains subject to the original creators' terms.</p>",
+  "creators": [
+    {"name": "Ampomah, Kofi", "affiliation": "The University of Alabama"},
+    {"name": "Le, Tu", "affiliation": "The University of Alabama"}
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": ["Discord", "bots", "security and privacy", "user reviews", "Model Context Protocol", "NDSS 2027"],
+  "related_identifiers": [
+    {
+      "identifier": "10.14722/ndss.2027.230535",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-conferencepaper"
+    }
+  ]
+}
