@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the paper below."
+title: "BotLens: artifact for Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord"
+type: software
+authors:
+  - family-names: Ampomah
+    given-names: Kofi
+    affiliation: The University of Alabama
+  - family-names: Le
+    given-names: Tu
+    affiliation: The University of Alabama
+repository-code: "https://github.com/ua-spectral/BotLens"
+license:
+  - MIT              # code
+  - CC-BY-NC-SA-4.0  # data (botlens-ndss-data.zip); see data/LICENSE
+version: "1.0.0"
+date-released: "2026-10-22"
+keywords:
+  - Discord
+  - bots
+  - security and privacy
+  - user reviews
+  - MCP
+preferred-citation:
+  type: conference-paper
+  title: "Measuring Users' Security and Privacy Concerns About Third-Party Community Bots on Discord"
+  authors:
+    - family-names: Ampomah
+      given-names: Kofi
+    - family-names: Le
+      given-names: Tu
+  conference:
+    name: "Network and Distributed System Security (NDSS) Symposium 2027"
+  year: 2027
+  doi: "10.14722/ndss.2027.230535"

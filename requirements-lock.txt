@@ -1,0 +1,40 @@
+# Exact versions of BotLens's direct dependencies, as installed on the machine
+# that produced the results reported in the paper (Python 3.11.9).
+#
+#   pip install -r requirements-lock.txt
+#
+# Transitive dependencies are left to pip. requirements.txt carries looser bounds
+# if you would rather resolve everything yourself.
+#
+# torch is pinned to a CUDA build for the RTX 5090 (Blackwell, sm_120) and is NOT
+# on PyPI. Install it first, from the PyTorch index:
+#
+#   pip install torch==2.10.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+#
+# Stages 7-8, the RQ3 scripts and the MCP server are CPU-only; a plain CPU build of
+# torch works for everything an artifact reviewer needs to run.
+
+pandas==2.3.3
+numpy==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+transformers==4.57.6
+tokenizers==0.22.1
+accelerate==1.12.0
+matplotlib==3.10.7
+langdetect==1.0.9
+argostranslate==1.11.0
+playwright==1.58.0
+selenium==4.36.0
+undetected-chromedriver==3.5.5
+openpyxl==3.1.5
+tqdm==4.67.1
+python-dotenv==1.2.1
+requests==2.32.5
+mcp==1.25.0
+
+# Runs the smoke tests (python -m pytest tests/test_smoke.py)
+pytest==8.4.1
+
+# Install separately, see note above:
+# torch==2.10.0+cu128

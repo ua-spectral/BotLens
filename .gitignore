@@ -1,0 +1,30 @@
+# Environments
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data — never commit scraped reviews or models
+data/
+models/
+bot_reviews_json/
+*.csv
+*.xlsx
+*.parquet
+
+# IRR artifacts (contain real annotations)
+IRR_Annotator*.xlsx
+IRR_Results.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
