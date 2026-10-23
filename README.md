@@ -1,4 +1,4 @@
-# BotLens: A Privacy Auditing Framework for Third-Party Community-Based Bots on Social Platforms
+# BotLens: A Security and Privacy Auditing Framework for Third-Party Community-Based Bots on Social Platforms
 
 **Paper:** Kofi Ampomah and Tu Le. *Measuring Users' Security and Privacy Concerns
 About Third-Party Community Bots on Discord.* Network and Distributed System
