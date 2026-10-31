@@ -3,6 +3,7 @@
 **Paper:** Kofi Ampomah and Tu Le. *Measuring Users' Security and Privacy Concerns
 About Third-Party Community Bots on Discord.* Network and Distributed System
 Security (NDSS) Symposium 2027. https://dx.doi.org/10.14722/ndss.2027.230535
+Preprint: https://arxiv.org/abs/2610.36626
 
 > **Artifact reviewers:** start with [`ARTIFACT-EVALUATION.md`](ARTIFACT-EVALUATION.md).
 > It maps every claim in the paper to the exact command that reproduces it, lists
